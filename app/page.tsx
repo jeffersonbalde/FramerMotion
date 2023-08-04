@@ -18,7 +18,7 @@ const item = { hidden: { x: -10, opacity: 0 } }
         transition={{ duration: 0.5 }}
         drag
         dragConstraints={{
-          top: -50,
+          top: 50,
           left: -50,
           right: 50,
           bottom: 50,
