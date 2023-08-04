@@ -18,14 +18,14 @@ const item = { hidden: { x: -10, opacity: 0 } }
         transition={{ duration: 0.5 }}
         drag
         dragConstraints={{
-          top: 50,
+          top: -50,
           left: -50,
           right: 50,
           bottom: 50,
         }}
       ></motion.div>
       <motion.div
-        className='w-96 h-96 bg-slate-900 mt-40 '   
+        className='w-96 h-96 bg-slate-900 mt-40 ' 
         // initial={{opacity: 0}}
         whileInView={{ opacity: 1 }}
       ></motion.div>
